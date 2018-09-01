@@ -1,0 +1,147 @@
+<div id='editor' class="hidden">
+  <div id='editor_inner'>
+    <div class='codemirror_area'>
+
+      <div class='codemirror_setting'>
+        <div class='codemirror_setting_inner pb-3'>
+          <div class='d-flex justify-content-between'>
+            <h4>setting</h4>
+            <button id="close_codemirror_setting_button" class="btn btn-secondary"><i class="fa fa-times"></i></button>
+          </div>
+          <hr/>
+        <div class='row'>
+
+
+          <div class='col-sm-4'>
+            <h3>Editor</h3>
+
+            <div class='form-check'>
+              <input name="vim" value="vim" type='checkbox' id="vim" class='form-check-input'/>
+              <label for='vim' class='form-check-label'>Enable Vim keymap</label>
+            </div>
+            <!-- /.form-check -->
+            <div class='form-check'>
+              <input name="lineWrapping" value="lineWrapping" type='checkbox' id="lineWrapping" class='form-check-input'/>
+              <label for='lineWrapping' class='form-check-label'>Enable Line Wrapping</label>
+            </div>
+            <!-- /.form-check -->
+
+            <div class='form-group'>
+              <label for='font_family'>Font Family</label>
+              <select name='font_family' id='font_family' class="form-control">
+                <option value='monaco'>Monaco</option>
+                <option value='menlo'>Menlo</option>
+                <option value='fira_code'>fira_code</option>
+                <option value='source_code_pro'>Source Code Pro</option>
+                <option value='ubuntu_mono'>Ubuntu Mono</option>
+              </select>
+            </div>
+            <!-- /.form-group -->
+            <div class='form-group'>
+              <label for='font_size'>Font Size</label>
+              <select name='font_size' id='font_size'>
+                <option value='14px'>14px</option>
+                <option value='16px'>16px</option>
+                <option value='18px'>18px</option>
+                <option value='20px'>20px</option>
+                <option value='22px'>22px</option>
+                <option value='22px'>22px</option>
+                <option value='24px'>24px</option>
+                <option value='26px'>26px</option>
+                <option value='28px'>28px</option>
+                <option value='30px'>30px</option>
+              </select>
+            </div>
+            <!-- /.form-group -->
+            <div class='input-group'>
+              <div class='input-group-prepend'>
+                <label for='tab_size'>tab size</label>
+              </div>
+              <input type='text' name='tab_size' id='tab_size' class="form-control" />
+              <!-- /.input-group-prepend -->
+            </div>
+          </div>
+          <div class='col-sm-4'>
+            <h3>Theme</h3>
+            <div>
+              <div class='form-check'>
+                <input value="monokai" type='radio' class="form-check-input" id="monokai" name="theme" />
+                <label class="form-check-label" for='monokai'>monokai</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="material" type='radio' class="form-check-input" id="material" name="theme" />
+                <label class="form-check-label" for='material'>material</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="solarized" type='radio' class="form-check-input" id="solarized" name="theme" />
+                <label class="form-check-label" for='solarized'>solarized</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="tomorrow-night-bright" type='radio' class="form-check-input" id="tomorrow-night-bright" name="theme" />
+                <label class="form-check-label" for='tomorrow-night-bright'>tomorrow-night-bright</label>
+              </div>
+              <!-- /.form-check -->
+            </div>
+          </div>
+
+          <div class='col-sm-4'>
+            <h3>Mode</h3>
+              <div class='form-check'>
+                <input value="htmlmixed" type='radio' class="form-check-input" id="htmlmixed" name="mode" />
+                <label class="form-check-label" for='htmlmixed'>Html</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="css" type='radio' class="form-check-input" id="css" name="mode" />
+                <label class="form-check-label" for='css'>Css</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="javascript" type='radio' class="form-check-input" id="javascript" name="mode" />
+                <label class="form-check-label" for='javascript'>JavaScript</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="jsx" type='radio' class="form-check-input" id="jsx" name="mode" />
+                <label class="form-check-label" for='jsx'>Jsx</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="php" type='radio' class="form-check-input" id="php" name="mode" />
+                <label class="form-check-label"  for='php'>Php</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="sql" type='radio' class="form-check-input" id="sql" name="mode" />
+                <label class="form-check-label" for='sql'>Sql</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="markdown" type='radio' class="form-check-input" id="markdown" name="mode" />
+                <label class="form-check-label" for='markdown'>Markdown</label>
+              </div>
+              <!-- /.form-check -->
+          </div>
+
+        </div>
+          <!-- /.row -->
+        </div>
+      </div>
+
+      <div class='codemirror_wrapper'>
+
+        <!-- where code mirror mount -->
+        <div id='codemirror_editor'></div>
+
+        <div class="codemirror_editor_button">
+          <button class='btn btn-danger' id="close_footer_panel_button"><i class="fa fa-times"></i></button>
+          <button class='btn btn-info' id="open_codemirror_setting_button"><i class="fa fa-wrench"></i></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

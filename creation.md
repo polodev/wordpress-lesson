@@ -1,0 +1,26 @@
+hugo new words/d/decimate.md
+hugo new words/d/devolve.md
+hugo new words/d/diatribe.md
+hugo new words/d/didactic.md
+
+hugo new words/e/exculpate.md
+hugo new words/e/eccentric.md
+hugo new words/e/eclectic.md
+hugo new words/e/elixir.md
+hugo new words/e/encumber.md
+hugo new words/e/enigma.md
+hugo new words/e/eschew.md
+hugo new words/e/eulogy.md
+hugo new words/e/exigency.md
+hugo new words/e/extol.md
+hugo new words/e/effulgent.md
+hugo new words/e/emollient.md
+hugo new words/e/enormity.md
+hugo new words/e/espouse.md
+hugo new words/e/extricate.md
+hugo new words/e/ebullient.md
+hugo new words/e/enervate.md
+hugo new words/e/enjoin.md
+hugo new words/e/enunciate.md
+hugo new words/e/ephemeral.md
+hugo new words/e/epitaph.md

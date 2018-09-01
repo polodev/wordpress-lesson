@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning site</title>
+  <link rel="canonical" href="https://polodev.github.io/wordpress-lesson/tags/basic/">
+  <link rel='icon' href='/wordpress-lesson/images/favicons/apple-touch-icon.png' />
+
+  
+
+ <link rel='stylesheet' type="text/css" href=' /wordpress-lesson/dist/codemirror_master.css'/>
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="/wordpress-lesson/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/wordpress-lesson/css/highlightjs.min.css">
+  <link rel="stylesheet" href="/wordpress-lesson/css/resizable.css">
+  <link rel="stylesheet" href="/wordpress-lesson/css/style.css">
+
+  
+  
+  
+  
+
+
+</head>
+<body data-after_domain="wordpress-lesson">
+<nav class="navbar navbar-expand-lg navbar-light bg-light main_menu">
+  <a class="navbar-brand" href="/wordpress-lesson/">Learning 101</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      
+      
+        <li class='nav-item '>
+          <a class="nav-link" href='/wordpress-lesson/'>home</a>
+        </li>
+      
+        <li class='nav-item '>
+          <a class="nav-link" href='/wordpress-lesson/about/'>about</a>
+        </li>
+      
+
+
+    </ul>
+    <div class='d-flex justify-content-center align-items-center mr-4' id="toggle_editor_button">
+      <button class="btn">toggle editor</button>
+    </div>
+    <div id="search_box" class="search_result_box d-inline my-2">
+      
+      
+    </div>
+  </div>
+  
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="mt-3">
+      
+<div>
+<h2 class="mb-4">All posts under <span class='mark'>Basic </span> </h2>
+
+
+  <div class="card my-2">
+    <div class="card-body">
+
+      <h3 class="post_title">
+        <a href="/wordpress-lesson/posts/wordpress-class-one/">Wordpress Class One</a>
+      </h3>
+      
+<div class='author meta ml-1'>
+  
+    <i class='fa fa-user'></i>
+    <a href='https://polodev.github.io/wordpress-lesson//authors/polo-dev'>
+      Polo Dev
+    </a>
+  
+</div>
+
+
+<div class="meta">
+  <span class="date">
+    <i class='fa fa-calendar'></i>
+    September 1, 2018
+  </span>
+  <span class='reading_time'>
+      <i class='fa fa-clock'></i>
+    2 minutes
+  </span>
+  
+    <span class="category-block">
+      <i class='fa fa-folder'></i>
+      
+        
+        <a href="https://polodev.github.io/wordpress-lesson/categories/wordpress">
+          wordpress
+        </a>
+      
+    </span>
+  
+
+</div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+</div>
+
+      </div>
+    </div>
+    <div class="col-md-3">
+      <aside>
+        
+          <div class="card my-2">
+  <div class="card-header">
+    <h3>Categories</h3>
+  </div>
+  <ul class="list-group">
+    
+    <li class="list-group-item">
+      <a class="btn btn-link" href="https://polodev.github.io/wordpress-lesson//categories/wordpress">Wordpress</a> (1)
+    </li>
+    
+  </ul>
+</div>
+
+        
+      </aside>
+    </div>
+  </div>
+</div>
+<progress value="0" id="progressBar">
+<div class="progress-container">
+  <span class="progress-bar"></span>
+</div>
+</progress>
+<div id='editor' class="hidden">
+  <div id='editor_inner'>
+    <div class='codemirror_area'>
+
+      <div class='codemirror_setting'>
+        <div class='codemirror_setting_inner pb-3'>
+          <div class='d-flex justify-content-between'>
+            <h4>setting</h4>
+            <button id="close_codemirror_setting_button" class="btn btn-secondary"><i class="fa fa-times"></i></button>
+          </div>
+          <hr/>
+        <div class='row'>
+
+
+          <div class='col-sm-4'>
+            <h3>Editor</h3>
+
+            <div class='form-check'>
+              <input name="vim" value="vim" type='checkbox' id="vim" class='form-check-input'/>
+              <label for='vim' class='form-check-label'>Enable Vim keymap</label>
+            </div>
+            
+            <div class='form-check'>
+              <input name="lineWrapping" value="lineWrapping" type='checkbox' id="lineWrapping" class='form-check-input'/>
+              <label for='lineWrapping' class='form-check-label'>Enable Line Wrapping</label>
+            </div>
+            
+
+            <div class='form-group'>
+              <label for='font_family'>Font Family</label>
+              <select name='font_family' id='font_family' class="form-control">
+                <option value='monaco'>Monaco</option>
+                <option value='menlo'>Menlo</option>
+                <option value='fira_code'>fira_code</option>
+                <option value='source_code_pro'>Source Code Pro</option>
+                <option value='ubuntu_mono'>Ubuntu Mono</option>
+              </select>
+            </div>
+            
+            <div class='form-group'>
+              <label for='font_size'>Font Size</label>
+              <select name='font_size' id='font_size'>
+                <option value='14px'>14px</option>
+                <option value='16px'>16px</option>
+                <option value='18px'>18px</option>
+                <option value='20px'>20px</option>
+                <option value='22px'>22px</option>
+                <option value='22px'>22px</option>
+                <option value='24px'>24px</option>
+                <option value='26px'>26px</option>
+                <option value='28px'>28px</option>
+                <option value='30px'>30px</option>
+              </select>
+            </div>
+            
+            <div class='input-group'>
+              <div class='input-group-prepend'>
+                <label for='tab_size'>tab size</label>
+              </div>
+              <input type='text' name='tab_size' id='tab_size' class="form-control" />
+              
+            </div>
+          </div>
+          <div class='col-sm-4'>
+            <h3>Theme</h3>
+            <div>
+              <div class='form-check'>
+                <input value="monokai" type='radio' class="form-check-input" id="monokai" name="theme" />
+                <label class="form-check-label" for='monokai'>monokai</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="material" type='radio' class="form-check-input" id="material" name="theme" />
+                <label class="form-check-label" for='material'>material</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="solarized" type='radio' class="form-check-input" id="solarized" name="theme" />
+                <label class="form-check-label" for='solarized'>solarized</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="tomorrow-night-bright" type='radio' class="form-check-input" id="tomorrow-night-bright" name="theme" />
+                <label class="form-check-label" for='tomorrow-night-bright'>tomorrow-night-bright</label>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class='col-sm-4'>
+            <h3>Mode</h3>
+              <div class='form-check'>
+                <input value="htmlmixed" type='radio' class="form-check-input" id="htmlmixed" name="mode" />
+                <label class="form-check-label" for='htmlmixed'>Html</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="css" type='radio' class="form-check-input" id="css" name="mode" />
+                <label class="form-check-label" for='css'>Css</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="javascript" type='radio' class="form-check-input" id="javascript" name="mode" />
+                <label class="form-check-label" for='javascript'>JavaScript</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="jsx" type='radio' class="form-check-input" id="jsx" name="mode" />
+                <label class="form-check-label" for='jsx'>Jsx</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="php" type='radio' class="form-check-input" id="php" name="mode" />
+                <label class="form-check-label"  for='php'>Php</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="sql" type='radio' class="form-check-input" id="sql" name="mode" />
+                <label class="form-check-label" for='sql'>Sql</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="markdown" type='radio' class="form-check-input" id="markdown" name="mode" />
+                <label class="form-check-label" for='markdown'>Markdown</label>
+              </div>
+              
+          </div>
+
+        </div>
+          
+        </div>
+      </div>
+
+      <div class='codemirror_wrapper'>
+
+        
+        <div id='codemirror_editor'></div>
+
+        <div class="codemirror_editor_button">
+          <button class='btn btn-danger' id="close_footer_panel_button"><i class="fa fa-times"></i></button>
+          <button class='btn btn-info' id="open_codemirror_setting_button"><i class="fa fa-wrench"></i></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div title="open editor" id="open_editor_from_footer">
+  <i class="fa fa-laptop-code"></i>
+</div>
+<script src="/wordpress-lesson/js/jquery.min.js"></script>
+<script src="/wordpress-lesson/js/resizable.js"></script>
+
+
+
+
+ <script src='/wordpress-lesson/dist/codemirror_master.js'></script>
+
+
+<script src="/wordpress-lesson/js/popper.min.js"></script>
+<script src="/wordpress-lesson/js/bootstrap.min.js"></script>
+<script src="/wordpress-lesson/js/clipboard.min.js"></script>
+<script src="/wordpress-lesson/js/highlight.min.js"></script>
+<script src="/wordpress-lesson/js/script.js"></script>
+<script src="/wordpress-lesson/js/ecma.js"></script>
+<script src="/wordpress-lesson/js/reading_position_progress.js"></script>
+
+
+
+
+
+</body>
+</html>

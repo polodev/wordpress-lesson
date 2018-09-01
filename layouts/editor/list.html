@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning site</title>
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel='icon' href='https://laracasts.com/favicons/apple-touch-icon.png' />
+ <link rel='stylesheet' type="text/css" href=' {{"dist/codemirror_master.css" | relURL }}'/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}">
+  <link rel="stylesheet" href="{{"css/standalone_editor_page.css" | relURL}}">
+
+
+</head>
+<body>
+
+<div id='editor'>
+  <div id='editor_inner'>
+    <div class='codemirror_area'>
+
+      <div class='codemirror_setting'>
+        <div class='codemirror_setting_inner'>
+          <div class='d-flex justify-content-between'>
+            <h4>setting</h4>
+            <button id="close_codemirror_setting_button" class="btn btn-secondary"><i class="fa fa-times"></i></button>
+          </div>
+          <hr/>
+        <div class='row'>
+
+
+          <div class='col-sm-4'>
+            <h3>Editor</h3>
+
+            <div class='form-check'>
+              <input name="vim" value="vim" type='checkbox' id="vim" class='form-check-input'/>
+              <label for='vim' class='form-check-label'>Enable Vim keymap</label>
+            </div>
+            <!-- /.form-check -->
+            <div class='form-check'>
+              <input name="lineWrapping" value="lineWrapping" type='checkbox' id="lineWrapping" class='form-check-input'/>
+              <label for='lineWrapping' class='form-check-label'>Enable Line Wrapping</label>
+            </div>
+            <!-- /.form-check -->
+
+            <div class='form-group'>
+              <label for='font_family'>Font Family</label>
+              <select name='font_family' id='font_family' class="form-control">
+                <option value='monaco'>Monaco</option>
+                <option value='menlo'>Menlo</option>
+                <option value='fira_code'>fira_code</option>
+                <option value='source_code_pro'>Source Code Pro</option>
+                <option value='ubuntu_mono'>Ubuntu Mono</option>
+              </select>
+            </div>
+            <!-- /.form-group -->
+            <div class='form-group'>
+              <label for='font_size'>Font Size</label>
+              <select name='font_size' id='font_size'>
+                <option value='14px'>14px</option>
+                <option value='16px'>16px</option>
+                <option value='18px'>18px</option>
+                <option value='20px'>20px</option>
+                <option value='22px'>22px</option>
+                <option value='22px'>22px</option>
+                <option value='24px'>24px</option>
+                <option value='26px'>26px</option>
+                <option value='28px'>28px</option>
+                <option value='30px'>30px</option>
+              </select>
+            </div>
+            <!-- /.form-group -->
+            <div class='input-group'>
+              <div class='input-group-prepend'>
+                <label for='tab_size'>tab size</label>
+              </div>
+              <input type='text' name='tab_size' id='tab_size' class="form-control" />
+              <!-- /.input-group-prepend -->
+            </div>
+          </div>
+          <div class='col-sm-4'>
+            <h3>Theme</h3>
+            <div>
+              <div class='form-check'>
+                <input value="monokai" type='radio' class="form-check-input" id="monokai" name="theme" />
+                <label class="form-check-label" for='monokai'>monokai</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="material" type='radio' class="form-check-input" id="material" name="theme" />
+                <label class="form-check-label" for='material'>material</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="solarized" type='radio' class="form-check-input" id="solarized" name="theme" />
+                <label class="form-check-label" for='solarized'>solarized</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="tomorrow-night-bright" type='radio' class="form-check-input" id="tomorrow-night-bright" name="theme" />
+                <label class="form-check-label" for='tomorrow-night-bright'>tomorrow-night-bright</label>
+              </div>
+              <!-- /.form-check -->
+            </div>
+          </div>
+
+          <div class='col-sm-4'>
+            <h3>Mode</h3>
+              <div class='form-check'>
+                <input value="htmlmixed" type='radio' class="form-check-input" id="htmlmixed" name="mode" />
+                <label class="form-check-label" for='htmlmixed'>Html</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="css" type='radio' class="form-check-input" id="css" name="mode" />
+                <label class="form-check-label" for='css'>Css</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="javascript" type='radio' class="form-check-input" id="javascript" name="mode" />
+                <label class="form-check-label" for='javascript'>JavaScript</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="jsx" type='radio' class="form-check-input" id="jsx" name="mode" />
+                <label class="form-check-label" for='jsx'>Jsx</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="php" type='radio' class="form-check-input" id="php" name="mode" />
+                <label class="form-check-label"  for='php'>Php</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="sql" type='radio' class="form-check-input" id="sql" name="mode" />
+                <label class="form-check-label" for='sql'>Sql</label>
+              </div>
+              <!-- /.form-check -->
+              <div class='form-check'>
+                <input value="markdown" type='radio' class="form-check-input" id="markdown" name="mode" />
+                <label class="form-check-label" for='markdown'>Markdown</label>
+              </div>
+              <!-- /.form-check -->
+          </div>
+
+        </div>
+          <!-- /.row -->
+        </div>
+      </div>
+
+      <div class='codemirror_wrapper'>
+
+        <!-- where code mirror mount -->
+        <div id='codemirror_editor'></div>
+
+        <div class="codemirror_editor_button p-2">
+          <button class='btn btn-danger' id="close_footer_panel_button"><i class="fa fa-times"></i></button>
+          <button class='btn btn-info' id="open_codemirror_setting_button"><i class="fa fa-wrench"></i></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="{{"js/jquery.min.js" | relURL}}"></script>
+<script src="{{"dist/codemirror_master.js" | relURL}}"></script>
+<script>
+  // localStorage.clear();
+  $(function() {
+  var App = {
+    initialOptionsWithoutValue: {
+      lineNumbers: true,
+      lineWrapping: true,
+      tabSize: 2,
+      keyMap: 'vim',
+      theme: "solarized",
+      mode : "markdown",
+    },
+    initialCode: {
+      value: "//start writing",
+    },
+    initialFontOptions: {
+      fontSize: "18px",
+      fontFamily: 'monaco'
+    },
+    options: {...this.initialCode, ...this.initialOptionsWithoutValue},
+    fontOptions: this.initialFontOptions,
+    fontStacks: {
+      monaco: "Monaco, Menlo, 'fira code', monospace",
+      menlo: "Menlo, Monaco, 'fira code', monospace",
+      fira_code: "'fira Code', Monaco, Menlo, monospace",
+      source_code_pro: "'Source Code Pro', Monaco, Menlo, 'fira code', monospace",
+      ubuntu_mono: "'Ubuntu Mono', Monaco, Menlo, 'fira code', monospace",
+    },
+    setOrGetLocalStorage: function (key, initial_value) {
+      let value = initial_value;
+       if (localStorage.getItem(key) === null) {
+        localStorage.setItem(key, JSON.stringify(initial_value));
+      } else {
+        value = JSON.parse(localStorage.getItem(key));
+      }
+      return value;
+    },
+    initializeLocalStorage: function () {
+      let optionsWithOutValue = this.setOrGetLocalStorage('optionsWithOutValue', this.initialOptionsWithoutValue)
+      let code = this.setOrGetLocalStorage('code', this.initialCode)
+      let fontOptions = this.setOrGetLocalStorage('fontOptions', this.initialFontOptions)
+      this.options = Object.assign(optionsWithOutValue, code)
+      this.fontOptions = fontOptions
+    },
+    updateLocalStorage: function (key, value) {
+      // pure function
+      localStorage.setItem(key, JSON.stringify(value))
+    },
+    codeMirrorBeforeSetUp: function () {
+      CodeMirror.commands.autocomplete = function(cm) {
+        cm.showHint({hint: CodeMirror.hint.anyword});
+      }
+      CodeMirror.Vim.map('jj', '<Esc>', 'insert');
+    },
+    codeMirrorAfterSetUp: function () {
+      emmetCodeMirror(this.editor)
+      this.editor.focus();
+    },
+    init: function () {
+      this.initializeLocalStorage();
+      this.domCached();
+      this.codeMirrorBeforeSetUp();
+      this.render();
+      this.codeMirrorAfterSetUp();
+      this.bindEvents();
+      this.updateInitialDomSelection();
+    },
+    domCached: function () {
+      // all variable written with underscore
+      // all function camelCase
+      this.mounting_div = document.getElementById('codemirror_editor')
+      this.$theme = $("input[name='theme']");
+      this.$mode = $("input[name='mode']");
+      this.$vim = $("input[name='vim']");
+      this.$line_wrapping = $("input[name='lineWrapping']");
+
+      this.$open_codemirror_setting_button = $('#open_codemirror_setting_button')
+      this.$close_codemirror_setting_button = $('#close_codemirror_setting_button')
+      this.$codemirror_setting = $('.codemirror_setting')
+      this.$font_family = $('#font_family');
+      this.$font_size = $('#font_size');
+      this.$codemirror_editor_mounting_div = $('#codemirror_editor')
+      this.$tab_size = $('#tab_size')
+      this.$editor_panel = $('#editor')
+      let currentOptions = {
+        options: this.options,
+        fontOptions: this.fontOptions,
+      }
+      console.log('currentOptions', currentOptions)
+    },
+    render: function () {
+      this.editor = CodeMirror(this.mounting_div, {
+        value: this.options.value,
+        lineNumbers: this.options.lineNumbers,
+        theme: this.options.theme,
+        mode : this.options.mode,
+        lineWrapping: this.options.lineWrapping,
+        tabSize: this.options.tabSize,
+        keyMap: this.options.keyMap,
+
+        profile: 'xhtml',
+        matchBrackets: true,
+        autoCloseBrackets: true,
+        showCursorWhenSelecting: true,
+        continueComments: "Enter",
+        extraKeys: {
+          "Ctrl-Q": "toggleComment",
+          "Ctrl-Space": "autocomplete"
+        },
+      })
+    },
+    updateCodemirrorOption: function (key, value) {
+      this.options[key] = value
+      this.editor.setOption(key, value)
+
+      let options = this.options;
+      delete options.value
+      this.updateLocalStorage('optionsWithOutValue', options)
+    },
+    changeRadioOption: function (key, e) {
+      this.updateCodemirrorOption(key, e.target.value)
+    },
+    closeCodemirrorSetting: function () {
+      this.$codemirror_setting.slideUp(100)
+    },
+    openCodemirrorSetting: function () {
+      this.$codemirror_setting.slideDown(100)
+    },
+    updateInitialDomSelection: function () {
+      $("input[name='theme'][value=" + this.options.theme + "]").attr('checked', 'checked')
+      $("input[name='mode'][value=" + this.options.mode + "]").attr('checked', 'checked')
+      this.options.keyMap == 'vim' ? this.$vim.attr('checked', true) : null
+      this.options.lineWrapping  ? this.$line_wrapping.attr('checked', true) : null
+      this.$font_size.val(this.fontOptions.fontSize)
+      this.$font_family.val(this.fontOptions.fontFamily)
+      this.$codemirror_editor_mounting_div.css({'font-size': this.fontOptions.fontSize , 'font-family': this.fontStacks[this.fontOptions.fontFamily]})
+      this.$tab_size.val(this.options.tabSize)
+
+      let currentOptions = {
+        options: this.options,
+        fontOptions: this.fontOptions,
+      }
+
+    },
+    changeLineWrappingOption: function () {
+      let value = false;
+      if (this.$line_wrapping.is(':checked')) {
+        value = true;
+      }
+      this.updateCodemirrorOption('lineWrapping', value);
+    },
+    changeKeyMapOption: function () {
+      let value = 'default'
+      if (this.$vim.is(':checked')) {
+        value = 'vim'
+      }
+      this.updateCodemirrorOption('keyMap', value);
+    },
+    editorOnChange() {
+      let value = this.editor.getValue();
+      let code = {value: value}
+      this.updateLocalStorage('code', code)
+    },
+    updateFontOptions: function (key, value) {
+      this.fontOptions[key] = value;
+      this.updateLocalStorage('fontOptions', this.fontOptions)
+    },
+    changeFontSize: function (e) {
+      this.updateFontOptions('fontSize', e.target.value);
+      this.$codemirror_editor_mounting_div.css('font-size', e.target.value);
+    },
+    changeFontFamily: function (e) {
+      this.updateFontOptions('fontFamily', e.target.value)
+      let ff = this.fontStacks[e.target.value];
+      this.$codemirror_editor_mounting_div.css('font-family', ff);
+    },
+    changeTabSize: function (key, e) {
+      let tabSize = parseInt(e.target.value);
+      if (tabSize && tabSize > 1 && tabSize < 9) {
+        this.updateCodemirrorOption(key, e.target.value)
+      } else {
+        console.log(e.target.value, ' is not valid ')
+      }
+    },
+    bindEvents: function () {
+      this.$theme.on('click', this.changeRadioOption.bind(this, 'theme'))
+      this.$mode.on('click', this.changeRadioOption.bind(this, 'mode'))
+      this.$vim.on('change', this.changeKeyMapOption.bind(this))
+      this.$line_wrapping.on('change', this.changeLineWrappingOption.bind(this))
+      this.$close_codemirror_setting_button.on('click', this.closeCodemirrorSetting.bind(this))
+      this.$open_codemirror_setting_button.on('click', this.openCodemirrorSetting.bind(this))
+      this.editor.on('change', this.editorOnChange.bind(this))
+      this.$font_size.on('change', this.changeFontSize.bind(this))
+      this.$font_family.on('change', this.changeFontFamily.bind(this))
+      this.$tab_size.on('keyup', this.changeTabSize.bind(this, 'tabSize'))
+    },
+  }
+
+  App.init()
+
+
+})
+
+</script>
+
+</body>
+</html>

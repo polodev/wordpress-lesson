@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light main_menu">
+  <a class="navbar-brand" href="{{ "/" | relURL }}">Learning 101</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      {{ $url := .URL | relURL }}
+      {{range $.Site.Menus.main}}
+        <li class='nav-item {{ if eq $url (.URL | relURL) }}active{{end}}'>
+          <a class="nav-link" href='{{.URL}}'>{{.Title}}</a>
+        </li>
+      {{ end }}
+
+
+    </ul>
+    <div class='d-flex justify-content-center align-items-center mr-4' id="toggle_editor_button">
+      <button class="btn">toggle editor</button>
+    </div>
+    <div id="search_box" class="search_result_box d-inline my-2">
+      <!-- <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search..." aria-label="Search"> -->
+      <!-- <div id='search_result'>
+        <ul>
+          <li><a href='#'>Lorem ipsum dolor sit amet.</a></li>
+          <li><a href='#'>Lorem ipsum dolor sit amet.</a></li>
+          <li><a href='#'>Lorem ipsum dolor sit amet.</a></li>
+          <li><a href='#'>Lorem ipsum dolor sit amet.</a></li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+  <!-- /#search_result -->
+</nav>

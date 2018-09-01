@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Site</title>
+    <link>https://polodev.github.io/wordpress-lesson/categories/wordpress/</link>
+    <description>Recent content in Wordpress on Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Sep 2018 19:44:06 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/wordpress-lesson/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wordpress Class One</title>
+      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-one/</link>
+      <pubDate>Sat, 01 Sep 2018 19:44:06 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-one/</guid>
+      <description> WordPress basic topic listed on fb group  WordPress - Home WordPress - Overview WordPress - Installation WordPress - Dashboard WordPress Settings WordPress - General Setting WordPress - Writing Setting WordPress - Reading Setting WordPress - Discussion Setting WordPress - Media Setting WordPress - Permalink Setting WordPress - Plugin Setting WordPress Categories WordPress - Add Category WordPress - Edit Category WordPress - Delete Category WordPress - Arrange Categories WordPress Posts WordPress - Add Posts WordPress - Edit Posts WordPress - Delete Posts WordPress - Preview Posts WordPress - Publish Posts WordPress Media WordPress - Media Library WordPress - Add Media WordPress - Insert Media WordPress - Edit Media WordPress Pages WordPress - Add Pages WordPress - Publish Pages WordPress - Edit Pages WordPress - Delete Pages WordPress Tags WordPress - Add Tags WordPress - Edit Tags WordPress - Delete Tags WordPress Links WordPress - Add Links WordPress - Edit Links WordPress - Delete Links WordPress Comments WordPress - Add Comments WordPress - Edit Comments WordPress - Moderate Comments WordPress Plugins WordPress - View Plugins WordPress - Install Plugins WordPress - Customize Plugins WordPress Users WordPress - User Roles WordPress - Add Users WordPress - User Photo WordPress - Edit Users WordPress - Delete Users WordPress - Personal Profile WordPress Appearance WordPress - Theme Management WordPress - Customize Theme WordPress - Widget Management WordPress - Background WordPress Advanced WordPress - Host Transfer WordPress - Version Update WordPress - Spam Protection WordPress - Reset Password WordPress Useful Resources WordPress - Questions and Answers WordPress - Quick Guide WordPress - Useful Resources WordPress - Discussion  </description>
+    </item>
+    
+  </channel>
+</rss>

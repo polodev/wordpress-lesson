@@ -1,0 +1,49 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "deploy": "hugo && npm run production && hugo && git add . && git commit -m 'updated' & git push origin master",
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polodev/learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polodev/learning/issues"
+  },
+  "homepage": "https://github.com/polodev/learning#readme",
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^3.1.0",
+    "laravel-mix": "^2.1.11"
+  },
+  "dependencies": {
+    "fuzzy-search": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minifier": "^1.2.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0",
+    "jquery-resizable": "^1.0.6",
+    "lunr": "^2.3.1",
+    "react": "^16.4.1",
+    "react-ace": "^6.1.4",
+    "react-codemirror": "^1.0.0",
+    "react-codemirror2": "^5.1.0",
+    "react-dom": "^16.4.1",
+    "save-dev": "^2.0.0"
+  }
+}

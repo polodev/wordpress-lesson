@@ -1,0 +1,46 @@
+baseURL="https://polodev.github.io/wordpress-lesson/"
+languageCode = "en-us"
+paginate=25
+publishDir="docs"
+title = "Site"
+disqusShortname = "dev-learning"
+[params]
+  after_domain='wordpress-lesson'
+[taxonomies]
+  category="categories"
+  tag="tags"
+  [outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "this is home page"
+    title = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "this is about page"
+    title = "about"
+    url = "/about/"
+    weight = 99
+
+[related]
+
+# Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+threshold = 0
+
+# To get stable "See also" sections we, by default, exclude newer related pages.
+includeNewer = true
+
+# Will lower case keywords in both queries and in the indexes.
+toLower = false
+
+[[related.indices]]
+name = "keywords"
+weight = 150
+[[related.indices]]
+name  = "tags"
+weight = 200
+

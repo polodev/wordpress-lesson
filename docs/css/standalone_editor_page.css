@@ -1,0 +1,84 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.codemirror_area {
+  height: 100vh;
+  width: 100vw;
+  color: #333;
+  position: relative;
+  font-size: 22px;
+}
+
+.codemirror_area .codemirror_setting {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: #333;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  overflow: hidden;
+}
+
+.codemirror_area .codemirror_setting .codemirror_setting_inner {
+  width: 70%;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin: 20px auto;
+  background: white;
+}
+
+.codemirror_area .codemirror_setting .codemirror_setting_inner .setting_title {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.codemirror_area .codemirror_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.codemirror_area .codemirror_wrapper #codemirror_editor {
+  /**
+       * I will manipulate this block for ff and fz
+       */
+  width: 90vw;
+  height: 100vh;
+  font-family: Monaco, Menlo, 'fira code', monospace;
+  font-size: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.codemirror_area .codemirror_wrapper .codemirror_editor_button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.CodeMirror {
+  font-family: inherit;
+  font-size: inherit;
+  height: 100%;
+  width: 100%;
+}
+
