@@ -39,6 +39,93 @@ tags:
 
 3. A single session will be not less than 30 minutes
 
+# Home work + study
+
+## wordpress customization video series
+
+### video 01
+youtube resource link [https://www.youtube.com/watch?v=KKiMssaJr_Y](https://www.youtube.com/watch?v=KKiMssaJr_Y).
+
+Discussed topic:
+
+* system requirement,
+* xampp discussion
+* apache port change
+
+### video 02
+youtube resource link [https://www.youtube.com/watch?v=k3szfGshmjw](https://www.youtube.com/watch?v=k3szfGshmjw).
+
+Discussed topic:
+
+* Installing wordpress in xampp htdocs folder
+* creating database through phpmyadmin
+* discuss about wpconfig wpconfig-sample
+
+### video 03
+youtube resource link
+[https://www.youtube.com/watch?v=MbPC90HAV9Y](https://www.youtube.com/watch?v=MbPC90HAV9Y).
+
+Discussed topic:
+
+* general - setting: - title, tagline changing
+* concept: setting saved in `options` table in database
+
+### video 04
+youtube resource link
+[https://www.youtube.com/watch?v=TnTM4Q0NdQ4](https://www.youtube.com/watch?v=TnTM4Q0NdQ4).
+
+Discussed topic:
+
+* writing - setting: default post category, default post format, mailserver address
+* concept: categories field saved in `terms` table in database
+* reading - setting: changing default front page, posts per page, feed show full/ partly
+
+
+### video 05
+youtube resource link
+[https://www.youtube.com/watch?v=FgpQhIoDCrs](https://www.youtube.com/watch?v=FgpQhIoDCrs).
+
+Discussed topic:
+
+* Dicussion - setting: pingback, allow comments, comments related setting like emailing when comment, comments approval, user avatar
+* plugins - installing `wp user avatar` plugin for adding user defined default avatar in wordpress comment
+
+
+
+### video 06
+youtube resource link
+[https://www.youtube.com/watch?v=XlVkGvihc](https://www.youtube.com/watch?v=XlVkGvihc).
+
+Discussed topic:
+
+
+* Media - setting: thumbnail size, Tick organize media files, folder
+* Permalinks - setting
+* Plugins: discussing about Custom permalinks and installing
+
+
+### video 07
+youtube resource link
+[https://www.youtube.com/watch?v=57JoLIwaGCI](https://www.youtube.com/watch?v=57JoLIwaGCI).
+
+Discussed topic:
+
+* Plugin installed through downloading / manual installing - `wp-content>plugins>extract plugin folder`
+* plugin can be edited in dashboard. Edit link next to the activate button in plugin list
+* Plugin: `Permalink manager lite` installation
+
+### video 08
+youtube resource link
+[https://www.youtube.com/watch?v=pja9IY628U](https://www.youtube.com/watch?v=pja9IY628U).
+
+Discussed topic:
+
+* Categories: adding/editing/deleting categories inside `posts > categories`, parent category, quick edit
+* Plugins: `Category order and Taxonomy terms order` install and use
+
+
+
+
 
 
 # WordPress basic topic listed on fb group

@@ -25,6 +25,18 @@ home = [ "HTML", "RSS", "JSON"]
     title = "about"
     url = "/about/"
     weight = 99
+  [[menu.main]]
+    identifier = "themes"
+    name = "all essential themes listed"
+    title = "themes"
+    url = "/themes/"
+    weight = 2
+  [[menu.main]]
+    identifier = "plugins"
+    name = "all essential plugins listed"
+    title = "plugins"
+    url = "/plugins/"
+    weight = 3
 
 [related]
 
