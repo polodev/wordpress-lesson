@@ -20,28 +20,14 @@ tags:
 * programming language
 * How to installed wordpress
 
+
 # Rule and regulation
+Have to practice minimum 4 hours + [Private]
 
-
-1. make a excel file for daily 4 hours time keeping. Column  will be following
-  * Name (first row)
-  * SI (starting from 4th row, first column)
-  * title
-  * description
-  * start time (video)
-  * end time  (video)
-  * spend time
-  * resource link
-  * post done (yes/no; whether I have posted on 2 facebook post in wordpress learning bangladesh page or not)
-  * comment (Yes/No)
-
-2. Whenever practicing wordpress write `mamurjor shibu dev polo start time` in skype group. At ending write `mamurjor shibu deb polo end time`. At start and at end make screenshot and upload in skype group.
-
-3. A single session will be not less than 30 minutes
 
 # Home work + study
 
-## wordpress customization video series
+## wordpress customization video series by [Mamurjor](https://www.youtube.com/watch?v=KKiMssaJr_Y&t=49s&list=PLX7CHjb-dXZA_RKyZEXVhMMffi--cVOTW&index=2)
 
 ### video 01
 youtube resource link [https://www.youtube.com/watch?v=KKiMssaJr_Y](https://www.youtube.com/watch?v=KKiMssaJr_Y).
@@ -124,6 +110,103 @@ Discussed topic:
 * Plugins: `Category order and Taxonomy terms order` install and use
 
 
+### video 09
+youtube resource link
+[https://www.youtube.com/watch?v=4dmWwE5Yezo](https://www.youtube.com/watch?v=4dmWwE5Yezo).
+
+Discussed topic:
+
+* category order change using `Category order and Taxonomy terms order`
+* Adding New post: visual / html mode, post format, adding category, featured image
+
+
+
+### video 10
+youtube resource link
+[https://www.youtube.com/watch?v=Vy4ycU1U7M8](https://www.youtube.com/watch?v=Vy4ycU1U7M8).
+
+Discussed topic:
+
+* adding post: changing metadata when uploading media, adding tag, make post private, password protected
+
+
+### video 11
+youtube resource link
+[https://www.youtube.com/watch?v=W3gireVEgcg](https://www.youtube.com/watch?v=W3gireVEgcg).
+
+Discussed topic:
+
+* new post: Stickey post, published day, edior options,
+* how to show youtube video,
+* edit post, quick post, delete post, restore, delete permanently
+
+### video 11.1
+youtube resource link
+[https://www.youtube.com/watch?v=y2zdq1-vpfi](https://www.youtube.com/watch?v=y2zdq1-vpfi).
+
+discussed topic:
+
+* plugins: `admin branding and tweaks`
+* changing user password in localhost if we forget users table from php myadmin.
+* from users table give value to user_pass field and select field md5.
+* customizing login page branding using `admin branding and tweaks` plugins.
+
+### video 12
+youtube resource link
+[https://www.youtube.com/watch?v=kH2kRffHUGQ](https://www.youtube.com/watch?v=kH2kRffHUGQ).
+
+discussed topic:
+
+#### customizing login page branding using `admin branding and tweaks` plugins.
+* setting footer trext
+* adding google font
+* removing wordpress logo from adminbar
+* controlling dashboard page content
+* removing frontend adming bar
+
+### video 13 - can be found after 31
+youtube resource link
+[https://www.youtube.com/watch?v=tT8xbbz7B-c](https://www.youtube.com/watch?v=tT8xbbz7B-c).
+
+discussed topic:
+
+* Media library
+* pages (page template will be implemented later)
+* comments basic discussion
+
+
+### Video 13.1 - can be found after 31 , 13
+youtube resource link
+[https://www.youtube.com/watch?v=BT6CG85y3sg](https://www.youtube.com/watch?v=BT6CG85y3sg).
+
+discussed topic:
+
+* Plugin: `fakerPress`. Generating some fake posts
+
+### Video - topics about customization and development
+youtube resource link
+[https://www.youtube.com/watch?v=G0N-c5p9q-I](https://www.youtube.com/watch?v=G0N-c5p9q-I).
+
+Have to learn minimum 5 themes:
+
+* one page
+* newspaper
+* blog
+* corporate
+* landing page
+
+
+have to know about vc
+
+### Video 15
+youtube resource link
+[https://www.youtube.com/watch?v=YJz6WhrhZPw](https://www.youtube.com/watch?v=YJz6WhrhZPw).
+
+discussed topic:
+
+* Generating some fake pages (Post type page) by using `fakerPress`
+* changing different page for front page from `setting > reading`
+* adding top menu. single post can be also added to post
 
 
 
