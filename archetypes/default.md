@@ -1,7 +1,7 @@
 ---
 type: post
 authors:
-- "Polo Dev"
+- "Shibu DeV Polo"
 title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
 draft : false
