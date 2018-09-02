@@ -9,6 +9,7 @@ disqusShortname = "dev-learning"
 [taxonomies]
   category="categories"
   tag="tags"
+  author="authors"
   [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
