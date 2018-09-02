@@ -24,6 +24,11 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/wordpress-lesson/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/wordpress-lesson/tags/basic/</loc>
     <lastmod>2018-09-01T19:44:06+06:00</lastmod>
     <priority>0</priority>
@@ -41,6 +46,12 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/wordpress-lesson/authors/shibu-dev-polo/</loc>
+    <lastmod>2018-09-01T19:44:06+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/wordpress-lesson/</loc>
     <lastmod>2018-09-01T19:44:06+06:00</lastmod>
     <priority>0</priority>
@@ -53,13 +64,13 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/wordpress-lesson/categories/wordpress/</loc>
+    <loc>https://polodev.github.io/wordpress-lesson/tags/wordpress/</loc>
     <lastmod>2018-09-01T19:44:06+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/wordpress-lesson/tags/wordpress/</loc>
+    <loc>https://polodev.github.io/wordpress-lesson/categories/wordpress/</loc>
     <lastmod>2018-09-01T19:44:06+06:00</lastmod>
     <priority>0</priority>
   </url>

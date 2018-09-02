@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shibu Dev Polo on Site</title>
+    <link>https://polodev.github.io/wordpress-lesson/authors/shibu-dev-polo/</link>
+    <description>Recent content in Shibu Dev Polo on Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Sep 2018 19:44:06 +0600</lastBuildDate>
+    
+	<atom:link href="https://polodev.github.io/wordpress-lesson/authors/shibu-dev-polo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wordpress Class One</title>
+      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-one/</link>
+      <pubDate>Sat, 01 Sep 2018 19:44:06 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-one/</guid>
+      <description>Discussed subject  Frontend Backend programming language How to installed wordpress  Rule and regulation Have to practice minimum 4 hours + [Private]
+Home work + study wordpress customization video series by Mamurjor video 01 youtube resource link https://www.youtube.com/watch?v=KKiMssaJr_Y.
+Discussed topic:
+ system requirement, xampp discussion apache port change  video 02 youtube resource link https://www.youtube.com/watch?v=k3szfGshmjw.
+Discussed topic:
+ Installing wordpress in xampp htdocs folder creating database through phpmyadmin discuss about wpconfig wpconfig-sample  video 03 youtube resource link https://www.</description>
+    </item>
+    
+  </channel>
+</rss>
