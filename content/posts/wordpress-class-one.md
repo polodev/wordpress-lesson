@@ -142,7 +142,7 @@ Discussed topic:
 
 ### video 11.1
 youtube resource link
-[https://www.youtube.com/watch?v=y2zdq1-vpfi](https://www.youtube.com/watch?v=y2zdq1-vpfi).
+[https://www.youtube.com/watch?v=y2zDq1-vPfI](https://www.youtube.com/watch?v=y2zDq1-vPfI).
 
 discussed topic:
 
