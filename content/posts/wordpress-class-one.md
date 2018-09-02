@@ -80,7 +80,7 @@ Discussed topic:
 
 ### video 06
 youtube resource link
-[https://www.youtube.com/watch?v=XlVkGvihc](https://www.youtube.com/watch?v=XlVkGvihc).
+[https://www.youtube.com/watch?v=XlVkGvihc-w](https://www.youtube.com/watch?v=XlVkGvihc-w).
 
 Discussed topic:
 
@@ -102,7 +102,7 @@ Discussed topic:
 
 ### video 08
 youtube resource link
-[https://www.youtube.com/watch?v=pja9IY628U](https://www.youtube.com/watch?v=pja9IY628U).
+[https://www.youtube.com/watch?v=-pja9IY628U](https://www.youtube.com/watch?v=-pja9IY628U).
 
 Discussed topic:
 
