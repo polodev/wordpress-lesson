@@ -30,7 +30,7 @@ Have to practice minimum 4 hours + [Private]
 ## wordpress customization video series by [Mamurjor](https://www.youtube.com/watch?v=KKiMssaJr_Y&t=49s&list=PLX7CHjb-dXZA_RKyZEXVhMMffi--cVOTW&index=2)
 
 ### video 01
-youtube resource link [https://www.youtube.com/watch?v=KKiMssaJr_Y](https://www.youtube.com/watch?v=KKiMssaJr_Y).
+youtube resource link {{< ylink KKiMssaJr_Y >}}
 
 Discussed topic:
 
@@ -39,7 +39,7 @@ Discussed topic:
 * apache port change
 
 ### video 02
-youtube resource link [https://www.youtube.com/watch?v=k3szfGshmjw](https://www.youtube.com/watch?v=k3szfGshmjw).
+youtube resource link {{< ylink k3szfGshmjw >}}
 
 Discussed topic:
 
@@ -49,7 +49,8 @@ Discussed topic:
 
 ### video 03
 youtube resource link
-[https://www.youtube.com/watch?v=MbPC90HAV9Y](https://www.youtube.com/watch?v=MbPC90HAV9Y).
+youtube resource link {{< ylink MbPC90HAV9Y >}}
+
 
 Discussed topic:
 
@@ -58,7 +59,8 @@ Discussed topic:
 
 ### video 04
 youtube resource link
-[https://www.youtube.com/watch?v=TnTM4Q0NdQ4](https://www.youtube.com/watch?v=TnTM4Q0NdQ4).
+youtube resource link {{< ylink TnTM4Q0NdQ4 >}}
+
 
 Discussed topic:
 
@@ -69,7 +71,8 @@ Discussed topic:
 
 ### video 05
 youtube resource link
-[https://www.youtube.com/watch?v=FgpQhIoDCrs](https://www.youtube.com/watch?v=FgpQhIoDCrs).
+youtube resource link {{< ylink FgpQhIoDCrs >}}
+
 
 Discussed topic:
 
@@ -80,7 +83,7 @@ Discussed topic:
 
 ### video 06
 youtube resource link
-[https://www.youtube.com/watch?v=XlVkGvihc-w](https://www.youtube.com/watch?v=XlVkGvihc-w).
+youtube resource link {{< ylink XlVkGvihc-w >}}
 
 Discussed topic:
 
@@ -92,7 +95,8 @@ Discussed topic:
 
 ### video 07
 youtube resource link
-[https://www.youtube.com/watch?v=57JoLIwaGCI](https://www.youtube.com/watch?v=57JoLIwaGCI).
+youtube resource link {{< ylink 57JoLIwaGCI >}}
+
 
 Discussed topic:
 
@@ -102,7 +106,7 @@ Discussed topic:
 
 ### video 08
 youtube resource link
-[https://www.youtube.com/watch?v=-pja9IY628U](https://www.youtube.com/watch?v=-pja9IY628U).
+youtube resource link {{< ylink -pja9IY628U >}}
 
 Discussed topic:
 
@@ -112,7 +116,8 @@ Discussed topic:
 
 ### video 09
 youtube resource link
-[https://www.youtube.com/watch?v=4dmWwE5Yezo](https://www.youtube.com/watch?v=4dmWwE5Yezo).
+youtube resource link {{< ylink 4dmWwE5Yezo >}}
+
 
 Discussed topic:
 
@@ -123,7 +128,8 @@ Discussed topic:
 
 ### video 10
 youtube resource link
-[https://www.youtube.com/watch?v=Vy4ycU1U7M8](https://www.youtube.com/watch?v=Vy4ycU1U7M8).
+youtube resource link {{< ylink Vy4ycU1U7M8 >}}
+
 
 Discussed topic:
 
@@ -132,7 +138,7 @@ Discussed topic:
 
 ### video 11
 youtube resource link
-[https://www.youtube.com/watch?v=W3gireVEgcg](https://www.youtube.com/watch?v=W3gireVEgcg).
+youtube resource link {{< ylink W3gireVEgcg >}}
 
 Discussed topic:
 
@@ -142,7 +148,8 @@ Discussed topic:
 
 ### video 11.1
 youtube resource link
-[https://www.youtube.com/watch?v=y2zDq1-vPfI](https://www.youtube.com/watch?v=y2zDq1-vPfI).
+youtube resource link {{< ylink y2zDq1-vPfI >}}
+
 
 discussed topic:
 
@@ -153,7 +160,8 @@ discussed topic:
 
 ### video 12
 youtube resource link
-[https://www.youtube.com/watch?v=kH2kRffHUGQ](https://www.youtube.com/watch?v=kH2kRffHUGQ).
+youtube resource link {{< ylink kH2kRffHUGQ >}}
+
 
 discussed topic:
 
@@ -166,7 +174,7 @@ discussed topic:
 
 ### video 13 - can be found after 31
 youtube resource link
-[https://www.youtube.com/watch?v=tT8xbbz7B-c](https://www.youtube.com/watch?v=tT8xbbz7B-c).
+youtube resource link {{< ylink tT8xbbz7B-c >}}
 
 discussed topic:
 
@@ -177,7 +185,7 @@ discussed topic:
 
 ### Video 13.1 - can be found after 31 , 13
 youtube resource link
-[https://www.youtube.com/watch?v=BT6CG85y3sg](https://www.youtube.com/watch?v=BT6CG85y3sg).
+youtube resource link {{< ylink BT6CG85y3sg >}}
 
 discussed topic:
 
@@ -185,7 +193,7 @@ discussed topic:
 
 ### Video - topics about customization and development
 youtube resource link
-[https://www.youtube.com/watch?v=G0N-c5p9q-I](https://www.youtube.com/watch?v=G0N-c5p9q-I).
+youtube resource link {{< ylink G0N-c5p9q-I >}}
 
 Have to learn minimum 5 themes:
 
@@ -200,7 +208,7 @@ have to know about vc
 
 ### Video 15
 youtube resource link
-[https://www.youtube.com/watch?v=YJz6WhrhZPw](https://www.youtube.com/watch?v=YJz6WhrhZPw).
+youtube resource link {{< ylink YJz6WhrhZPw >}}
 
 discussed topic:
 

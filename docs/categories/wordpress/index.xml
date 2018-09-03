@@ -6,10 +6,19 @@
     <description>Recent content in Wordpress on Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Sep 2018 19:44:06 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 21:53:40 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/wordpress-lesson/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wordpress Class Two</title>
+      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-two/</link>
+      <pubDate>Sun, 02 Sep 2018 21:53:40 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-two/</guid>
+      <description> Discussed subject  self study (e.g- best wordpress contact form plugin - google search) completing video till 30  Home work + study </description>
+    </item>
     
     <item>
       <title>Wordpress Class One</title>
@@ -18,11 +27,9 @@
       
       <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-one/</guid>
       <description>Discussed subject  Frontend Backend programming language How to installed wordpress  Rule and regulation Have to practice minimum 4 hours + [Private]
-Home work + study wordpress customization video series by Mamurjor video 01 youtube resource link https://www.youtube.com/watch?v=KKiMssaJr_Y.
-Discussed topic:
- system requirement, xampp discussion apache port change  video 02 youtube resource link https://www.youtube.com/watch?v=k3szfGshmjw.
-Discussed topic:
- Installing wordpress in xampp htdocs folder creating database through phpmyadmin discuss about wpconfig wpconfig-sample  video 03 youtube resource link https://www.</description>
+Home work + study wordpress customization video series by Mamurjor video 01 youtube resource link https://www.youtube.com/watch?v=KKiMssaJr_Y  Discussed topic:
+ system requirement, xampp discussion apache port change  video 02 youtube resource link https://www.youtube.com/watch?v=k3szfGshmjw  Discussed topic:
+ Installing wordpress in xampp htdocs folder creating database through phpmyadmin discuss about wpconfig wpconfig-sample  video 03 youtube resource link youtube resource link https://www.</description>
     </item>
     
   </channel>
