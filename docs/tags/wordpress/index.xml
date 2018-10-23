@@ -6,10 +6,22 @@
     <description>Recent content in Wordpress on Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Sep 2018 21:53:40 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 23 Oct 2018 20:57:54 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/wordpress-lesson/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wordpress Class 3</title>
+      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-3/</link>
+      <pubDate>Tue, 23 Oct 2018 20:57:54 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-3/</guid>
+      <description>video 23 youtube resource link https://www.youtube.com/watch?v=r7N9viYZDHo  Discussed topic:
+ proficiency footer / customization installing education hub  video 24 youtube resource link https://www.youtube.com/watch?v=F9rHwp9JDz8  Discussed topic:
+ set up menus in education hub  video 25 youtube resource link https://www.youtube.com/watch?v=yeLiYyOXYPI  Discussed topic:
+ set up banner in education hub set up static page from setting &amp;gt; reading  video 26 youtube resource link https://www.youtube.com/watch?v=sbW-1Zgyw7w  Discussed topic:</description>
+    </item>
     
     <item>
       <title>Wordpress Class Two</title>

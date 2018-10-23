@@ -1,7 +1,7 @@
 ---
 type: post
 authors:
-- "Shibu DeV Polo"
+- "Shibu Dev Polo"
 title: Wordpress Class Two
 date: 2018-09-02T21:53:40+06:00
 draft : false
