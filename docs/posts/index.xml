@@ -6,17 +6,29 @@
     <description>Recent content in Posts on Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Oct 2018 20:57:54 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 24 Oct 2018 11:44:54 +0600</lastBuildDate>
     
 	<atom:link href="https://polodev.github.io/wordpress-lesson/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Wordpress Class 3</title>
-      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-3/</link>
+      <title>Wordpress day 4</title>
+      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-day-4/</link>
+      <pubDate>Wed, 24 Oct 2018 11:44:54 +0600</pubDate>
+      
+      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-day-4/</guid>
+      <description>video 30 youtube resource link https://www.youtube.com/watch?v=gLnPjtzwv5w  Discussed topic:
+ mega menu - plugin (max mega menu)  video 31 youtube resource link https://www.youtube.com/watch?v=D3taDXbqoxk  Discussed topic:
+ wp editor for editing theme file from admin dashboard Getting error when installing wp editor So install theme editor - instead of wp editor personally  video 34 youtube resource link https://www.youtube.com/watch?v=Vyrkuo9C3VQ  Discussed topic:
+ News announcement scroll for showing scrollable news, announcement  video 36 youtube resource link https://www.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress day 3</title>
+      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-day-3/</link>
       <pubDate>Tue, 23 Oct 2018 20:57:54 +0600</pubDate>
       
-      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-3/</guid>
+      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-day-3/</guid>
       <description>video 23 youtube resource link https://www.youtube.com/watch?v=r7N9viYZDHo  Discussed topic:
  proficiency footer / customization installing education hub  video 24 youtube resource link https://www.youtube.com/watch?v=F9rHwp9JDz8  Discussed topic:
  set up menus in education hub  video 25 youtube resource link https://www.youtube.com/watch?v=yeLiYyOXYPI  Discussed topic:
@@ -24,22 +36,22 @@
     </item>
     
     <item>
-      <title>Wordpress Class Two</title>
-      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-two/</link>
+      <title>Wordpress Day 2</title>
+      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-day-2/</link>
       <pubDate>Sun, 02 Sep 2018 21:53:40 +0600</pubDate>
       
-      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-two/</guid>
+      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-day-2/</guid>
       <description>Discussed subject  self study (e.g- best wordpress contact form plugin - google search) completing video till 30  Home work + study video 16 youtube resource link https://www.youtube.com/watch?v=pzPZ3Ii1SLY  Discussed topic:
  plugin: democracy poll; make poll, shortcode use  video 17 youtube resource link https://www.youtube.com/watch?v=GJ0SiKri3dc  Discussed topic:
  add new user from Users &amp;gt; Add new. Adding role to new user. viewing toolbar, dashboard color change we can disable viewing toolbar from Users &amp;gt; Your Profile page  video 18 youtube resource link https://www.</description>
     </item>
     
     <item>
-      <title>Wordpress Class One</title>
-      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-one/</link>
+      <title>Wordpress day 1</title>
+      <link>https://polodev.github.io/wordpress-lesson/posts/wordpress-day-one/</link>
       <pubDate>Sat, 01 Sep 2018 19:44:06 +0600</pubDate>
       
-      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-class-one/</guid>
+      <guid>https://polodev.github.io/wordpress-lesson/posts/wordpress-day-one/</guid>
       <description>Discussed subject  Frontend Backend programming language How to installed wordpress  Rule and regulation Have to practice minimum 4 hours + [Private]
 Home work + study wordpress customization video series by Mamurjor video 01 youtube resource link https://www.youtube.com/watch?v=KKiMssaJr_Y  Discussed topic:
  system requirement, xampp discussion apache port change  video 02 youtube resource link https://www.youtube.com/watch?v=k3szfGshmjw  Discussed topic:

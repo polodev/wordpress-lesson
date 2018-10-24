@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mamurjor wordpress customization - Learning site</title>
+  <link rel="canonical" href="https://polodev.github.io/wordpress-lesson/posts/wordpress-day-one/">
+  <link rel='icon' href='/wordpress-lesson/images/favicons/apple-touch-icon.png' />
+
+  
+
+ <link rel='stylesheet' type="text/css" href=' /wordpress-lesson/dist/codemirror_master.css'/>
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="/wordpress-lesson/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/wordpress-lesson/css/highlightjs.min.css">
+  <link rel="stylesheet" href="/wordpress-lesson/css/resizable.css">
+  <link rel="stylesheet" href="/wordpress-lesson/css/style.css">
+
+  
+  
+  
+  
+
+
+</head>
+<body data-after_domain="wordpress-lesson">
+<nav class="navbar navbar-expand-lg navbar-light bg-light main_menu">
+  <a class="navbar-brand" href="/wordpress-lesson/">Mamurjor WP Customization</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      
+      
+        <li class='nav-item '>
+          <a class="nav-link" href='/wordpress-lesson/'>home</a>
+        </li>
+      
+        <li class='nav-item '>
+          <a class="nav-link" href='/wordpress-lesson/themes/'>themes</a>
+        </li>
+      
+        <li class='nav-item '>
+          <a class="nav-link" href='/wordpress-lesson/plugins/'>plugins</a>
+        </li>
+      
+        <li class='nav-item '>
+          <a class="nav-link" href='/wordpress-lesson/about/'>about</a>
+        </li>
+      
+
+
+    </ul>
+    <div class='d-flex justify-content-center align-items-center mr-4' id="toggle_editor_button">
+      <button class="btn">toggle editor</button>
+    </div>
+    <div id="search_box" class="search_result_box d-inline my-2">
+      
+      
+    </div>
+  </div>
+  
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="mt-3">
+      
+<div id="single_page_content">
+  <h1 class="post_title">
+    <a href="/wordpress-lesson/posts/wordpress-day-one/">Wordpress day 1</a>
+  </h1>
+  <hr/>
+
+  
+<div class='author meta ml-1'>
+  
+    <i class='fa fa-user'></i>
+    <a href='https://polodev.github.io/wordpress-lesson//authors/shibu-dev-polo'>
+      Shibu Dev Polo
+    </a>
+  
+</div>
+
+
+<div class="meta">
+  <span class="date">
+    <i class='fa fa-calendar'></i>
+    September 1, 2018
+  </span>
+  <span class='reading_time'>
+      <i class='fa fa-clock'></i>
+    5 minutes
+  </span>
+  
+    <span class="category-block">
+      <i class='fa fa-folder'></i>
+      
+        
+        <a href="https://polodev.github.io/wordpress-lesson/categories/wordpress">
+          wordpress
+        </a>
+      
+    </span>
+  
+
+</div>
+
+
+  
+  <div class="toc">
+    <h2>
+      Table of Contents
+      <span id="toc_toggle_span">[hide]</span>
+    </h2>
+    <div id='toc_content'>
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#discussed-subject">Discussed subject</a></li>
+<li><a href="#rule-and-regulation">Rule and regulation</a></li>
+<li><a href="#home-work-study">Home work + study</a>
+<ul>
+<li><a href="#wordpress-customization-video-series-by-mamurjor-https-www-youtube-com-watch-v-kkimssajr-y-t-49s-list-plx7chjb-dxza-rkyzexvhmmffi-cvotw-index-2">wordpress customization video series by <a href="https://www.youtube.com/watch?v=KKiMssaJr_Y&amp;t=49s&amp;list=PLX7CHjb-dXZA_RKyZEXVhMMffi--cVOTW&amp;index=2">Mamurjor</a></a>
+<ul>
+<li><a href="#video-01">video 01</a></li>
+<li><a href="#video-02">video 02</a></li>
+<li><a href="#video-03">video 03</a></li>
+<li><a href="#video-04">video 04</a></li>
+<li><a href="#video-05">video 05</a></li>
+<li><a href="#video-06">video 06</a></li>
+<li><a href="#video-07">video 07</a></li>
+<li><a href="#video-08">video 08</a></li>
+<li><a href="#video-09">video 09</a></li>
+<li><a href="#video-10">video 10</a></li>
+<li><a href="#video-11">video 11</a></li>
+<li><a href="#video-11-1">video 11.1</a></li>
+<li><a href="#video-12">video 12</a>
+<ul>
+<li><a href="#customizing-login-page-branding-using-admin-branding-and-tweaks-plugins">customizing login page branding using <code>admin branding and tweaks</code> plugins.</a></li>
+</ul></li>
+<li><a href="#video-13-can-be-found-after-31">video 13 - can be found after 31</a></li>
+<li><a href="#video-13-1-can-be-found-after-31-13">Video 13.1 - can be found after 31 , 13</a></li>
+<li><a href="#video-topics-about-customization-and-development">Video - topics about customization and development</a></li>
+<li><a href="#video-15">Video 15</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#wordpress-basic-topic-listed-on-fb-group">WordPress basic topic listed on fb group</a></li>
+</ul>
+</nav>
+    </div>
+    
+  </div>
+  
+
+  <div class='article'>
+    
+
+<h1 id="discussed-subject">Discussed subject</h1>
+
+<ul>
+<li>Frontend</li>
+<li>Backend</li>
+<li>programming language</li>
+<li>How to installed wordpress</li>
+</ul>
+
+<h1 id="rule-and-regulation">Rule and regulation</h1>
+
+<p>Have to practice minimum 4 hours + [Private]</p>
+
+<h1 id="home-work-study">Home work + study</h1>
+
+<h2 id="wordpress-customization-video-series-by-mamurjor-https-www-youtube-com-watch-v-kkimssajr-y-t-49s-list-plx7chjb-dxza-rkyzexvhmmffi-cvotw-index-2">wordpress customization video series by <a href="https://www.youtube.com/watch?v=KKiMssaJr_Y&amp;t=49s&amp;list=PLX7CHjb-dXZA_RKyZEXVhMMffi--cVOTW&amp;index=2">Mamurjor</a></h2>
+
+<h3 id="video-01">video 01</h3>
+
+<p>youtube resource link <a href="https://www.youtube.com/watch?v=KKiMssaJr_Y">
+  https://www.youtube.com/watch?v=KKiMssaJr_Y
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>system requirement,</li>
+<li>xampp discussion</li>
+<li>apache port change</li>
+</ul>
+
+<h3 id="video-02">video 02</h3>
+
+<p>youtube resource link <a href="https://www.youtube.com/watch?v=k3szfGshmjw">
+  https://www.youtube.com/watch?v=k3szfGshmjw
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>Installing wordpress in xampp htdocs folder</li>
+<li>creating database through phpmyadmin</li>
+<li>discuss about wpconfig wpconfig-sample</li>
+</ul>
+
+<h3 id="video-03">video 03</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=MbPC90HAV9Y">
+  https://www.youtube.com/watch?v=MbPC90HAV9Y
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>general - setting: - title, tagline changing</li>
+<li>concept: setting saved in <code>options</code> table in database</li>
+</ul>
+
+<h3 id="video-04">video 04</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=TnTM4Q0NdQ4">
+  https://www.youtube.com/watch?v=TnTM4Q0NdQ4
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>writing - setting: default post category, default post format, mailserver address</li>
+<li>concept: categories field saved in <code>terms</code> table in database</li>
+<li>reading - setting: changing default front page, posts per page, feed show full/ partly</li>
+</ul>
+
+<h3 id="video-05">video 05</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=FgpQhIoDCrs">
+  https://www.youtube.com/watch?v=FgpQhIoDCrs
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>Dicussion - setting: pingback, allow comments, comments related setting like emailing when comment, comments approval, user avatar</li>
+<li>plugins - installing <code>wp user avatar</code> plugin for adding user defined default avatar in wordpress comment</li>
+</ul>
+
+<h3 id="video-06">video 06</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=XlVkGvihc-w">
+  https://www.youtube.com/watch?v=XlVkGvihc-w
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>Media - setting: thumbnail size, Tick organize media files, folder</li>
+<li>Permalinks - setting</li>
+<li>Plugins: discussing about Custom permalinks and installing</li>
+</ul>
+
+<h3 id="video-07">video 07</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=57JoLIwaGCI">
+  https://www.youtube.com/watch?v=57JoLIwaGCI
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>Plugin installed through downloading / manual installing - <code>wp-content&gt;plugins&gt;extract plugin folder</code></li>
+<li>plugin can be edited in dashboard. Edit link next to the activate button in plugin list</li>
+<li>Plugin: <code>Permalink manager lite</code> installation</li>
+</ul>
+
+<h3 id="video-08">video 08</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=-pja9IY628U">
+  https://www.youtube.com/watch?v=-pja9IY628U
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>Categories: adding/editing/deleting categories inside <code>posts &gt; categories</code>, parent category, quick edit</li>
+<li>Plugins: <code>Category order and Taxonomy terms order</code> install and use</li>
+</ul>
+
+<h3 id="video-09">video 09</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=4dmWwE5Yezo">
+  https://www.youtube.com/watch?v=4dmWwE5Yezo
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>category order change using <code>Category order and Taxonomy terms order</code></li>
+<li>Adding New post: visual / html mode, post format, adding category, featured image</li>
+</ul>
+
+<h3 id="video-10">video 10</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=Vy4ycU1U7M8">
+  https://www.youtube.com/watch?v=Vy4ycU1U7M8
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>adding post: changing metadata when uploading media, adding tag, make post private, password protected</li>
+</ul>
+
+<h3 id="video-11">video 11</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=W3gireVEgcg">
+  https://www.youtube.com/watch?v=W3gireVEgcg
+</a>
+
+</p>
+
+<p>Discussed topic:</p>
+
+<ul>
+<li>new post: Stickey post, published day, edior options,</li>
+<li>how to show youtube video,</li>
+<li>edit post, quick post, delete post, restore, delete permanently</li>
+</ul>
+
+<h3 id="video-11-1">video 11.1</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=y2zDq1-vPfI">
+  https://www.youtube.com/watch?v=y2zDq1-vPfI
+</a>
+
+</p>
+
+<p>discussed topic:</p>
+
+<ul>
+<li>plugins: <code>admin branding and tweaks</code></li>
+<li>changing user password in localhost if we forget users table from php myadmin.</li>
+<li>from users table give value to user_pass field and select field md5.</li>
+<li>customizing login page branding using <code>admin branding and tweaks</code> plugins.</li>
+</ul>
+
+<h3 id="video-12">video 12</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=kH2kRffHUGQ">
+  https://www.youtube.com/watch?v=kH2kRffHUGQ
+</a>
+
+</p>
+
+<p>discussed topic:</p>
+
+<h4 id="customizing-login-page-branding-using-admin-branding-and-tweaks-plugins">customizing login page branding using <code>admin branding and tweaks</code> plugins.</h4>
+
+<ul>
+<li>setting footer trext</li>
+<li>adding google font</li>
+<li>removing wordpress logo from adminbar</li>
+<li>controlling dashboard page content</li>
+<li>removing frontend adming bar</li>
+</ul>
+
+<h3 id="video-13-can-be-found-after-31">video 13 - can be found after 31</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=tT8xbbz7B-c">
+  https://www.youtube.com/watch?v=tT8xbbz7B-c
+</a>
+
+</p>
+
+<p>discussed topic:</p>
+
+<ul>
+<li>Media library</li>
+<li>pages (page template will be implemented later)</li>
+<li>comments basic discussion</li>
+</ul>
+
+<h3 id="video-13-1-can-be-found-after-31-13">Video 13.1 - can be found after 31 , 13</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=BT6CG85y3sg">
+  https://www.youtube.com/watch?v=BT6CG85y3sg
+</a>
+
+</p>
+
+<p>discussed topic:</p>
+
+<ul>
+<li>Plugin: <code>fakerPress</code>. Generating some fake posts</li>
+</ul>
+
+<h3 id="video-topics-about-customization-and-development">Video - topics about customization and development</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=G0N-c5p9q-I">
+  https://www.youtube.com/watch?v=G0N-c5p9q-I
+</a>
+
+</p>
+
+<p>Have to learn minimum 5 themes:</p>
+
+<ul>
+<li>one page</li>
+<li>newspaper</li>
+<li>blog</li>
+<li>corporate</li>
+<li>landing page</li>
+</ul>
+
+<p>have to know about vc</p>
+
+<h3 id="video-15">Video 15</h3>
+
+<p>youtube resource link
+youtube resource link <a href="https://www.youtube.com/watch?v=YJz6WhrhZPw">
+  https://www.youtube.com/watch?v=YJz6WhrhZPw
+</a>
+
+</p>
+
+<p>discussed topic:</p>
+
+<ul>
+<li>Generating some fake pages (Post type page) by using <code>fakerPress</code></li>
+<li>changing different page for front page from <code>setting &gt; reading</code></li>
+<li>adding top menu. single post can be also added to post</li>
+</ul>
+
+<h1 id="wordpress-basic-topic-listed-on-fb-group">WordPress basic topic listed on fb group</h1>
+
+<ul>
+<li>WordPress - Home</li>
+<li>WordPress - Overview</li>
+<li>WordPress - Installation</li>
+<li>WordPress - Dashboard</li>
+<li>WordPress Settings</li>
+<li>WordPress - General Setting</li>
+<li>WordPress - Writing Setting</li>
+<li>WordPress - Reading Setting</li>
+<li>WordPress - Discussion Setting</li>
+<li>WordPress - Media Setting</li>
+<li>WordPress - Permalink Setting</li>
+<li>WordPress - Plugin Setting</li>
+<li>WordPress Categories</li>
+<li>WordPress - Add Category</li>
+<li>WordPress - Edit Category</li>
+<li>WordPress - Delete Category</li>
+<li>WordPress - Arrange Categories</li>
+<li>WordPress Posts</li>
+<li>WordPress - Add Posts</li>
+<li>WordPress - Edit Posts</li>
+<li>WordPress - Delete Posts</li>
+<li>WordPress - Preview Posts</li>
+<li>WordPress - Publish Posts</li>
+<li>WordPress Media</li>
+<li>WordPress - Media Library</li>
+<li>WordPress - Add Media</li>
+<li>WordPress - Insert Media</li>
+<li>WordPress - Edit Media</li>
+<li>WordPress Pages</li>
+<li>WordPress - Add Pages</li>
+<li>WordPress - Publish Pages</li>
+<li>WordPress - Edit Pages</li>
+<li>WordPress - Delete Pages</li>
+<li>WordPress Tags</li>
+<li>WordPress - Add Tags</li>
+<li>WordPress - Edit Tags</li>
+<li>WordPress - Delete Tags</li>
+<li>WordPress Links</li>
+<li>WordPress - Add Links</li>
+<li>WordPress - Edit Links</li>
+<li>WordPress - Delete Links</li>
+<li>WordPress Comments</li>
+<li>WordPress - Add Comments</li>
+<li>WordPress - Edit Comments</li>
+<li>WordPress - Moderate Comments</li>
+<li>WordPress Plugins</li>
+<li>WordPress - View Plugins</li>
+<li>WordPress - Install Plugins</li>
+<li>WordPress - Customize Plugins</li>
+<li>WordPress Users</li>
+<li>WordPress - User Roles</li>
+<li>WordPress - Add Users</li>
+<li>WordPress - User Photo</li>
+<li>WordPress - Edit Users</li>
+<li>WordPress - Delete Users</li>
+<li>WordPress - Personal Profile</li>
+<li>WordPress Appearance</li>
+<li>WordPress - Theme Management</li>
+<li>WordPress - Customize Theme</li>
+<li>WordPress - Widget Management</li>
+<li>WordPress - Background</li>
+<li>WordPress Advanced</li>
+<li>WordPress - Host Transfer</li>
+<li>WordPress - Version Update</li>
+<li>WordPress - Spam Protection</li>
+<li>WordPress - Reset Password</li>
+<li>WordPress Useful Resources</li>
+<li>WordPress - Questions and Answers</li>
+<li>WordPress - Quick Guide</li>
+<li>WordPress - Useful Resources</li>
+<li>WordPress - Discussion</li>
+</ul>
+
+  </div>
+  
+  
+    <div class='tags py-3'>
+      Tags: 
+        <a href="https://polodev.github.io/wordpress-lesson/tags/wordpress">
+          wordpress
+        </a>
+      
+        <a href="https://polodev.github.io/wordpress-lesson/tags/basic">
+          Basic
+        </a>
+      
+
+    </div>
+  
+  
+
+  <div class="text-center py-3">
+    
+    
+      <a class="btn btn-info" href="https://polodev.github.io/wordpress-lesson/posts/wordpress-day-2/">Next Post</a>
+    
+  </div>
+
+</div>
+
+
+
+
+<h3>See Also</h3>
+<ul>
+  
+  <li><a href="/wordpress-lesson/posts/wordpress-day-4/">Wordpress day 4</a></li>
+  
+  <li><a href="/wordpress-lesson/posts/wordpress-day-3/">Wordpress day 3</a></li>
+  
+  <li><a href="/wordpress-lesson/posts/wordpress-day-2/">Wordpress Day 2</a></li>
+  
+</ul>
+
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://'+ "dev-learning" +'.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<progress value="0" id="progressBar">
+  <div class="progress-container">
+    <span class="progress-bar"></span>
+  </div>
+</progress>
+
+      </div>
+    </div>
+    <div class="col-md-3">
+      <aside>
+        
+          <div class="card my-2">
+  <div class="card-header">
+    <h3>Categories</h3>
+  </div>
+  <ul class="list-group">
+    
+    <li class="list-group-item">
+      <a class="btn btn-link" href="https://polodev.github.io/wordpress-lesson//categories/wordpress">Wordpress</a> (4)
+    </li>
+    
+  </ul>
+</div>
+
+        
+      </aside>
+    </div>
+  </div>
+</div>
+<progress value="0" id="progressBar">
+<div class="progress-container">
+  <span class="progress-bar"></span>
+</div>
+</progress>
+<div id='editor' class="hidden">
+  <div id='editor_inner'>
+    <div class='codemirror_area'>
+
+      <div class='codemirror_setting'>
+        <div class='codemirror_setting_inner pb-3'>
+          <div class='d-flex justify-content-between'>
+            <h4>setting</h4>
+            <button id="close_codemirror_setting_button" class="btn btn-secondary"><i class="fa fa-times"></i></button>
+          </div>
+          <hr/>
+        <div class='row'>
+
+
+          <div class='col-sm-4'>
+            <h3>Editor</h3>
+
+            <div class='form-check'>
+              <input name="vim" value="vim" type='checkbox' id="vim" class='form-check-input'/>
+              <label for='vim' class='form-check-label'>Enable Vim keymap</label>
+            </div>
+            
+            <div class='form-check'>
+              <input name="lineWrapping" value="lineWrapping" type='checkbox' id="lineWrapping" class='form-check-input'/>
+              <label for='lineWrapping' class='form-check-label'>Enable Line Wrapping</label>
+            </div>
+            
+
+            <div class='form-group'>
+              <label for='font_family'>Font Family</label>
+              <select name='font_family' id='font_family' class="form-control">
+                <option value='monaco'>Monaco</option>
+                <option value='menlo'>Menlo</option>
+                <option value='fira_code'>fira_code</option>
+                <option value='source_code_pro'>Source Code Pro</option>
+                <option value='ubuntu_mono'>Ubuntu Mono</option>
+              </select>
+            </div>
+            
+            <div class='form-group'>
+              <label for='font_size'>Font Size</label>
+              <select name='font_size' id='font_size'>
+                <option value='14px'>14px</option>
+                <option value='16px'>16px</option>
+                <option value='18px'>18px</option>
+                <option value='20px'>20px</option>
+                <option value='22px'>22px</option>
+                <option value='22px'>22px</option>
+                <option value='24px'>24px</option>
+                <option value='26px'>26px</option>
+                <option value='28px'>28px</option>
+                <option value='30px'>30px</option>
+              </select>
+            </div>
+            
+            <div class='input-group'>
+              <div class='input-group-prepend'>
+                <label for='tab_size'>tab size</label>
+              </div>
+              <input type='text' name='tab_size' id='tab_size' class="form-control" />
+              
+            </div>
+          </div>
+          <div class='col-sm-4'>
+            <h3>Theme</h3>
+            <div>
+              <div class='form-check'>
+                <input value="monokai" type='radio' class="form-check-input" id="monokai" name="theme" />
+                <label class="form-check-label" for='monokai'>monokai</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="material" type='radio' class="form-check-input" id="material" name="theme" />
+                <label class="form-check-label" for='material'>material</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="solarized" type='radio' class="form-check-input" id="solarized" name="theme" />
+                <label class="form-check-label" for='solarized'>solarized</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="tomorrow-night-bright" type='radio' class="form-check-input" id="tomorrow-night-bright" name="theme" />
+                <label class="form-check-label" for='tomorrow-night-bright'>tomorrow-night-bright</label>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class='col-sm-4'>
+            <h3>Mode</h3>
+              <div class='form-check'>
+                <input value="htmlmixed" type='radio' class="form-check-input" id="htmlmixed" name="mode" />
+                <label class="form-check-label" for='htmlmixed'>Html</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="css" type='radio' class="form-check-input" id="css" name="mode" />
+                <label class="form-check-label" for='css'>Css</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="javascript" type='radio' class="form-check-input" id="javascript" name="mode" />
+                <label class="form-check-label" for='javascript'>JavaScript</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="jsx" type='radio' class="form-check-input" id="jsx" name="mode" />
+                <label class="form-check-label" for='jsx'>Jsx</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="php" type='radio' class="form-check-input" id="php" name="mode" />
+                <label class="form-check-label"  for='php'>Php</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="sql" type='radio' class="form-check-input" id="sql" name="mode" />
+                <label class="form-check-label" for='sql'>Sql</label>
+              </div>
+              
+              <div class='form-check'>
+                <input value="markdown" type='radio' class="form-check-input" id="markdown" name="mode" />
+                <label class="form-check-label" for='markdown'>Markdown</label>
+              </div>
+              
+          </div>
+
+        </div>
+          
+        </div>
+      </div>
+
+      <div class='codemirror_wrapper'>
+
+        
+        <div id='codemirror_editor'></div>
+
+        <div class="codemirror_editor_button">
+          <button class='btn btn-danger' id="close_footer_panel_button"><i class="fa fa-times"></i></button>
+          <button class='btn btn-info' id="open_codemirror_setting_button"><i class="fa fa-wrench"></i></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div title="open editor" id="open_editor_from_footer">
+  <i class="fa fa-laptop-code"></i>
+</div>
+<script src="/wordpress-lesson/js/jquery.min.js"></script>
+<script src="/wordpress-lesson/js/resizable.js"></script>
+
+
+
+
+ <script src='/wordpress-lesson/dist/codemirror_master.js'></script>
+
+
+<script src="/wordpress-lesson/js/popper.min.js"></script>
+<script src="/wordpress-lesson/js/bootstrap.min.js"></script>
+<script src="/wordpress-lesson/js/clipboard.min.js"></script>
+<script src="/wordpress-lesson/js/highlight.min.js"></script>
+<script src="/wordpress-lesson/js/script.js"></script>
+<script src="/wordpress-lesson/js/ecma.js"></script>
+<script src="/wordpress-lesson/js/reading_position_progress.js"></script>
+
+
+
+
+
+</body>
+</html>
