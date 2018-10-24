@@ -2,7 +2,7 @@
 type: post
 authors:
 - "Shibu Dev Polo"
-title: Wordpress Class 3
+title: Wordpress day 3
 date: 2018-10-23T20:57:54+06:00
 draft : false
 complete : false

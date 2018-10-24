@@ -2,7 +2,7 @@
 type: post
 authors:
 - "Shibu Dev Polo"
-title: Wordpress Class One
+title: Wordpress day 1
 date: 2018-09-01T19:44:06+06:00
 draft : false
 complete : false
